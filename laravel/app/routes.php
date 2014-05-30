@@ -13,5 +13,17 @@
 
 Route::get('/', function()
 {
-	return View::make('Accueil');
+	return View::make('accueil');
+});
+
+Route::get('/prestation' ,  function(){
+	return View::make('prestation');
+});
+
+Route::get('/partenaire' , function(){
+	return View::make('Partenaire');
+});
+
+Route::get('/contact' , function(){
+	return View::make('Contact');
 });
