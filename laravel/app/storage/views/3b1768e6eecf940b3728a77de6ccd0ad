@@ -25,7 +25,7 @@
 					</div>
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="/accueil">Accueil</a></li>
+							<li class="active"><a href="/">Accueil</a></li>
 							<li><a href="/prestation">Prestations</a></li>
 							<li><a href="/partners">Partenaires</a></li>
 						</ul>

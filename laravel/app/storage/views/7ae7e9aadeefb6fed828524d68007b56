@@ -1,11 +1,15 @@
 <?php $__env->stopSection(); ?>
 <?php $__env->startSection('content'); ?>
-   	<div id="header" class="container-fluid">
-   		<div class="row">
-   			<div class="col-md-12">
-   				test
-   			</div>
-   		</div>
-   	</div>
+<div id="contact" class="jumbotron jumbotron-sm">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-lg-12">
+				<h1 class="h1">
+					Nos prestations<small> Lorem ipsum dolor sit amet </small>
+				</h1>
+			</div>
+		</div>
+	</div>
+</div>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('layouts.master', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
